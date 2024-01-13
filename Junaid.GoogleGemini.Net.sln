@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Junaid.GoogleGemini.Net", "Junaid.GoogleGemini.Net\Junaid.GoogleGemini.Net.csproj", "{5E41DB5C-B7B9-4C53-8D9D-FBCD90D5AC94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Junaid.GoogleGemini.Sample", "Junaid.GoogleGemini.Sample\Junaid.GoogleGemini.Sample.csproj", "{46CF2118-B205-4DE2-B901-8427039D8941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5E41DB5C-B7B9-4C53-8D9D-FBCD90D5AC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E41DB5C-B7B9-4C53-8D9D-FBCD90D5AC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E41DB5C-B7B9-4C53-8D9D-FBCD90D5AC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CF2118-B205-4DE2-B901-8427039D8941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CF2118-B205-4DE2-B901-8427039D8941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CF2118-B205-4DE2-B901-8427039D8941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CF2118-B205-4DE2-B901-8427039D8941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

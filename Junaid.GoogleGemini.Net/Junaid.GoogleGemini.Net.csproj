@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0;net8.0;</TargetFrameworks>
+    <TargetFrameworks>net8.0;</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
@@ -15,13 +15,6 @@
     <PackageReleaseNotes>Added Model Info service and Embedding service.</PackageReleaseNotes>
     <Version>3.2.0</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Services\ChatService.cs" />
-    <Compile Remove="Services\EmbeddingService.cs" />
-    <Compile Remove="Services\ModelInfoService.cs" />
-    <Compile Remove="Services\VisionService.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
